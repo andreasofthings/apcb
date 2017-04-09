@@ -13,6 +13,7 @@ djangorestframework-yaml
 django-crispy-forms==1.6.1
 django-allauth==0.29.0
 django-star-ratings==0.5.3
+django-guardian
 
 # connectors
 psycopg2==2.5.4
@@ -23,6 +24,7 @@ gunicorn>=19.4.0
 
 # documentation
 sphinx>=1.5.2
+markdown
 
 # static content
 whitenoise>=3.2.2
@@ -36,3 +38,7 @@ facepy==1.0.8
 
 # New Relic
 newrelic
+
+# Sentry/Raven
+raven
+contextlib2
