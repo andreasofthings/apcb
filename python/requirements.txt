@@ -6,13 +6,18 @@ celery>=4.0.0
 django-celery-beat
 django-celery-results
 
-# Django Tools
-django-haystack>=2.4.0
+# REST API
 djangorestframework==3.5.1
 djangorestframework-yaml
+coreapi
+coreschema
+
+# Django Tools
+django-haystack>=2.4.0
 django-crispy-forms==1.6.1
 django-allauth==0.29.0
 django-star-ratings==0.5.3
+django-guardian
 
 # connectors
 psycopg2==2.5.4
@@ -23,16 +28,27 @@ gunicorn>=19.4.0
 
 # documentation
 sphinx>=1.5.2
+markdown
 
 # static content
 whitenoise>=3.2.2
+
+# user content
+django-storages
 
 # extra
 pandas==0.19.2
 matplotlib==2.0.0
 numpy==1.12.0
+nltk
 django-grappelli==2.9.1
 facepy==1.0.8
+Pillow==4.1.0
+boto3
 
 # New Relic
 newrelic
+
+# Sentry/Raven
+raven
+contextlib2
