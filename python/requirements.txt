@@ -6,19 +6,21 @@ celery>=4.0.0
 django-celery-beat
 django-celery-results
 
-# REST API
-djangorestframework==3.5.1
-djangorestframework-yaml
-coreapi
-coreschema
-
 # Django Tools
 django-allauth==0.29.0
 django-crispy-forms==1.6.1
-django-el-pagination>=3.1.0
+django-formtools==2.0
 django-guardian
 django-haystack>=2.4.0
+django-el-pagination>=3.1.0
 django-star-ratings==0.5.3
+
+# Rest Framework
+djangorestframework==3.5.1
+djangorestframework-yaml
+markdown
+coreapi
+coreschema
 
 # connectors
 psycopg2==2.5.4
