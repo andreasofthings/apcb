@@ -2,7 +2,7 @@ pip>=9.0.0
 
 # Django and core modules
 Django>=1.11.0
-celery>=4.0.0
+celery>=4.1.0
 django-celery-beat
 django-celery-results
 
@@ -16,7 +16,7 @@ django-el-pagination>=3.1.0
 django-star-ratings==0.5.3
 
 # Rest Framework
-djangorestframework==3.5.1
+djangorestframework==3.6.1
 djangorestframework-yaml
 markdown
 coreapi
