@@ -27,7 +27,7 @@ psycopg2==2.5.4
 django-mailgun
 
 # webserver
-gunicorn>=19.4.0
+gunicorn>=19.7.1
 
 # documentation
 sphinx>=1.5.2
