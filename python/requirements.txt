@@ -40,6 +40,7 @@ django-storages
 
 # extra
 pandas==0.20.3
+pandas_datareader
 matplotlib==2.0.0
 numpy==1.12.0
 nltk
