@@ -1,8 +1,10 @@
 pip>=9.0.0
 
 # Django and core modules
-Django>=1.11.4
+Django>=1.11.5
 celery>=4.1.0
+amqp>=2.0.0
+aiohttp
 django-celery-beat
 django-celery-results
 
