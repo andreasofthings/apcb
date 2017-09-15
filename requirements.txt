@@ -4,7 +4,6 @@ pip>=9.0.0
 Django>=1.11.5
 celery>=4.1.0
 amqp>=2.0.0
-aiohttp
 django-celery-beat
 django-celery-results
 
@@ -30,6 +29,9 @@ django-mailgun
 
 # webserver
 gunicorn>=19.7.1
+aiohttp==0.21.6
+aiodns
+cchardet
 
 # documentation
 sphinx>=1.5.2
