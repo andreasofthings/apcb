@@ -1,7 +1,7 @@
 pip>=9.0.0
 
 # Django and core modules
-Django>=1.11.5
+Django>=1.11.6
 celery>=4.1.0
 amqp>=2.0.0
 django-celery-beat
@@ -15,9 +15,11 @@ django-guardian
 django-haystack
 django-el-pagination
 django-star-ratings
+django-oauth-toolkit
+django-cors-middleware
 
 # Rest Framework
-djangorestframework>=3.6.4
+djangorestframework>=3.7.0
 djangorestframework-yaml
 markdown
 coreapi
@@ -48,8 +50,8 @@ pandas_datareader
 matplotlib==2.0.0
 bokeh>=0.12.7
 numpy==1.12.0
+seaborn
 nltk
-django-grappelli==2.9.1
 facepy==1.0.8
 Pillow==4.1.0
 boto3
@@ -67,4 +69,6 @@ idna>=2.6.0
 requests>=2.18.4
 timestring>=1.6.2
 tweepy>=3.5.0
+oauthlib>=2.0.4
+six>=1.11.0
 
